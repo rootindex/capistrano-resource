@@ -1,0 +1,6 @@
+config/
+lib/
+log/
+Gemfile.lock
+Dockerfile
+Capfile

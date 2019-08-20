@@ -1,0 +1,38 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    airbrussh (1.3.0)
+      sshkit (>= 1.6.1, != 1.7.0)
+    bcrypt_pbkdf (1.0.1)
+    capistrano (3.11.0)
+      airbrussh (>= 1.0.0)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (>= 1.9.0)
+    capistrano-composer (0.0.6)
+      capistrano (>= 3.0.0.pre)
+    concurrent-ruby (1.0.5)
+    ffi (1.11.1)
+    i18n (1.1.0)
+      concurrent-ruby (~> 1.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (4.1.0)
+    rake (12.3.1)
+    rbnacl (4.0.2)
+      ffi
+    sshkit (1.17.0)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bcrypt_pbkdf
+  capistrano
+  capistrano-composer
+  rbnacl (< 5.0)
+
+BUNDLED WITH
+   2.0.2
